@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav{
+    background-color:#123456;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+section{
+    background-color: #282828;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero button{
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
