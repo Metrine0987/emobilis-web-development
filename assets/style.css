@@ -39,3 +39,30 @@ section{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Pushes divs to left, center, and right */
+  gap: 20px;                      /* Adds space between the blocks */
+  width: 100%;                    /* Spans the full width of the page */
+}
+
+.container > div {
+  flex: 1;                        /* Makes all three columns equal width */
+  padding: 15px;                  /* Adds inner spacing */
+}
+
+.contact-hero {
+  background-color: #230429;
+  color: white;
+  padding: 45px 20px;
+  text-align: center;
+}
+
+.contact-hero p {
+  font-size: 16px;
+}
+
+.contact-hero h1{
+    font-size: 35px;
+}
