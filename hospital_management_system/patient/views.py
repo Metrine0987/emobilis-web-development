@@ -10,3 +10,9 @@ def login(request):
 
 def dashboard(request):
     return render(request, "dashboard.html")
+
+def profile(request):
+    return render(request, "profile.html")
+
+def book_appointment(request):
+    return render(request, "book_appointment.html")
