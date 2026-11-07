@@ -1,5 +1,31 @@
-db.sqlite3
+# Byte-compiled / optimized / PDF files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Local development environment and secrets
 .env
+db.sqlite3
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Static and Media files (Gathered during deployment)
+staticfiles/
+media/
+
+# IDE and Editor files
 .vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
